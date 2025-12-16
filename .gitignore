@@ -1,4 +1,35 @@
+# archives
 *.zip
 *.7z
+*.rar
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# simulation outputs
+*.vcd
+*.wlf
+*.raw
+*.trn
+psf/
+spectre/
+simulation/
+
+# keep these private / not tracked
+digital/lay/
+digital/syn/
+digital/pnr/
+digital/innovus/
+digital/dc/
+
+# misc
 hdl.var
-*.zip
+cds.lib
