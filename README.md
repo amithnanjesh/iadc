@@ -4,7 +4,7 @@ This repository collects my iADC project work (analog modeling, digital RTL, and
 
 ## Repository layout
 - `docs/`    : project reports and documentation (PDFs)
-- `analog/`  : analog-related figures (PNG) and supporting material
+- `analog/`  : analog figures (plots/diagrams) and supporting material
 - `digital/` : VHDL RTL + testbench + simulation scripts
 - `lab/`     : lab automation / analysis scripts and supporting files
 
@@ -12,7 +12,7 @@ This repository collects my iADC project work (analog modeling, digital RTL, and
 1. Start with `docs/` to understand the ADC concept, blocks, and results.
 2. Use `digital/` to run/inspect the VHDL control logic and testbench.
 3. Use `lab/` to see the measurement automation and post-processing flow.
-4. Use `analog/` for supporting figures referenced by the docs.
+4. Use `analog/` for figures (plots/diagrams) referenced by the docs.
 
 ## Documents (start here)
 - `docs/ADC_Sem1_SPICE_MacroModel_Report.pdf`  
